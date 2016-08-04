@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FunnyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FunnyApplication.class, args);
+		SpringApplication.run(FunnyApplication.class, "--server.port=8081");
 	}
 }
